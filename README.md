@@ -1,5 +1,7 @@
 #  Cycle Trips Data Analysis (2013–2022)
 
+## Raw Dataset : https://www.kaggle.com/datasets/algorismus/cyclistic/data
+
 ##  Project Overview
 
 This project analyzes bike-sharing trip data from **2013 to 2022** to understand user behavior, trip patterns, and system usage trends.
@@ -23,7 +25,17 @@ The final result is an interactive dashboard that highlights **trip trends, user
 * **GitHub** – Project documentation and version control
 
 ---
+## Structure
 
+* **Used python to clean the data and store it in a cleaned folder**
+* **Seperated meta data from some of the files where the data was available**
+* **Merged and Stored metadata in a different folder**
+* **Merged all the different cleaned data into a single dataset**
+* **Performed SQL queries on the cleaned datasets**
+* **Stored the queries in postgreSQL views**
+* **Connected Power BI with postgreSQL database to visualize the saved views**
+* **Created Dashboard for better visualization of the view**
+ 
 ## Dashboard Insights
 
 The Power BI dashboard provides insights into several aspects of bike usage:
